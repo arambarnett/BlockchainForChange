@@ -7,7 +7,7 @@ contract CHANGECOIN is IERC20 {
    
    using SafeMath for uint256;
    
-   uint public constant _totalSupply = 2000000000;
+   uint public constant _totalSupply = 200000000;
    
    string public constant symbol = "CHG";
    string public constant name = "CHANGE";
