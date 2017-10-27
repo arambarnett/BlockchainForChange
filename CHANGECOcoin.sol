@@ -3,7 +3,7 @@ pragma solidity ^0.4.11;
 import './IERC20.sol';
 import './SafeMath.sol';
 
-contract LOCICOIN is IERC20 {
+contract CHANGECOIN is IERC20 {
    
    using SafeMath for uint256;
    
