@@ -9,9 +9,9 @@ contract CHANGECOIN is IERC20 {
    
    uint public constant _totalSupply = 1000000000;
    
-   string public constant symbol = "LOCI";
-   string public constant name = "LOCI";
-   uint8 public constant decimals = 0;
+   string public constant symbol = "CHG";
+   string public constant name = "CHANGE";
+   uint8 public constant decimals = 18;
 
    mapping(address => uint256) balances;
    mapping(address => mapping (address => uint256)) allowed;
