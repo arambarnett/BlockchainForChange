@@ -16,7 +16,7 @@ contract CHANGECOIN is IERC20 {
    mapping(address => uint256) balances;
    mapping(address => mapping (address => uint256)) allowed;
    
-   function LOCICOIN(){
+   function CHANGECOIN(){
        balances[msg.sender] = _totalSupply;
    }
    function totalSupply() constant returns (uint256 totalSupply){
