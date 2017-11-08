@@ -2,6 +2,7 @@ pragma solidity ^0.4.11;
 
 import './IERC20.sol';
 import './SafeMath.sol';
+import './ConvertLib.sol';
 
 contract DISLEDGERCOIN is IERC20 {
    
