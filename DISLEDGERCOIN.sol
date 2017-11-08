@@ -3,20 +3,20 @@ pragma solidity ^0.4.11;
 import './IERC20.sol';
 import './SafeMath.sol';
 
-contract CHANGECOIN is IERC20 {
+contract DISLEDGERCOIN is IERC20 {
    
    using SafeMath for uint256;
    
-   uint public constant _totalSupply = 200000000;
+   uint public constant _totalSupply = 30000000;
    
-   string public constant symbol = "CNG";
-   string public constant name = "CHANGE";
-   uint8 public constant decimals = 18;
+   string public constant symbol = "DSL";
+   string public constant name = "DISLEDGER";
+   uint8 public constant decimals = 3;
 
    mapping(address => uint256) balances;
    mapping(address => mapping (address => uint256)) allowed;
    
-   function CHANGECOIN(){
+   function DISLEDGERCOIN(){
        balances[msg.sender] = _totalSupply;
    }
    function totalSupply() constant returns (uint256 totalSupply){
