@@ -9,9 +9,9 @@ contract CHANGECOIN is IERC20 {
    
    uint public constant _totalSupply = 30000000;
    
-   string public constant symbol = "DSL";
-   string public constant name = "DISLEDGER";
-   uint8 public constant decimals = 3;
+   string public constant symbol = "CNG";
+   string public constant name = "CHANGE";
+   uint8 public constant decimals = 18;
 
    mapping(address => uint256) balances;
    mapping(address => mapping (address => uint256)) allowed;
